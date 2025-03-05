@@ -15,3 +15,4 @@ function counterСoinPower() {
     power.textContent = currentPower;
   } else {alert('У вас недостаточно энергии!')}
 }
+// 
