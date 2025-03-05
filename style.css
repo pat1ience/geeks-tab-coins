@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+body {
+  background: rgb(43, 43, 43);
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.geeks__tab-coins {
+  color: rgb(237, 201, 0);
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 4px;
+  word-spacing: -5px;
+}
+
+.wrapper {
+  padding-top: 150px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+.fa-bitcoin {
+  position: absolute;
+  color: rgb(237, 201, 0);
+  font-size: 40px;
+  top: 231px;
+  left: 895px;
+}
+.geeks__coin {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(237, 201, 0);
+  font-size: 50px;
+}
+.geeks__tab-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  box-shadow: 0;
+  z-index: 111;
+}
+.geeks__tab-img:hover {
+  transform: scale(1.1);
+}
+.geeks_tab-bg {
+  position: absolute;
+  background: rgba(237, 201, 0, 0.161);
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  filter: blur(1.5rem);
+  top: 380px;
+  z-index: -1;
+}
+.geeks__power {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 50px;
+  color: rgb(237, 201, 0);
+}
+.fa-bolt {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(237, 201, 0);
+    top: 633px;
+    left: 885px;
+}
+.fa-bolt {
+  font-size: 40px;
+}
